@@ -54,3 +54,10 @@
 <h2>Getting Input From Users</h2>
 
 > use input() example: `name = input("Enter your name: ")`
+
+<h2>Building a Basic Calculator</h2>
+
+> Some method for Basic Calculator:
+- int(str) convert to int
+- float(str) convert to float 
+
