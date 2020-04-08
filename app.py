@@ -1,3 +1,4 @@
-from math import *
-my_num = -5
-print(floor(3.5))
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are "+ age+ " years old")

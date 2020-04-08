@@ -50,3 +50,7 @@
   - floor(num)
   - ceil(num)
   - sqrt(num)
+
+<h2>Getting Input From Users</h2>
+
+> use input() example: `name = input("Enter your name: ")`
