@@ -1,7 +1,26 @@
-color = input("Enter a color: ")
-plural_noun = input("Enter a Plural Noun: ")
-celebrity = input("Enter a celebrity: ")
+lucky_numbers = [ 45,8,15,16,23,42]
+friends = ["Kevin", "Karen","Jim", "Jim","Oscar","Toby"]
 
-print("Roses are " + color)
-print(plural_noun + " are blue")
-print("I love " + celebrity)
+friends.insert(1,"Teo")
+
+friends.append("Creed")
+
+friends.extend(lucky_numbers)
+
+friends.pop()
+
+print(friends)
+
+print(friends.count("Jim"))
+
+friends2 = friends.copy();
+
+print(friends2)
+
+friends.clear()
+
+lucky_numbers.sort()
+
+lucky_numbers.reverse()
+
+print(lucky_numbers)
