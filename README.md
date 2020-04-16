@@ -235,6 +235,25 @@
   - Python also accepts function recursion, which means a defined function can call itself.
   - Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that you can loop through data to reach a result.
 
+<h2>If ... Else</h2>
+
+- Python Conditions and If statements
+- Indentation
+  - Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose. 
+- Elif
+  - The `elif` keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+- Else
+  - The else keyword catches anything which isn't caught by the preceding conditions.
+  - You can also have an else without the `elif`:
+- And
+  - The `and` keyword is a logical operator, and is used to combine conditional statements:
+- Or
+  - The `or` keyword is a logical operator, and is used to combine conditional statements:
+- Nested If
+  - You can have `if` statements inside `if` statements, this is called nested `if` statements.
+- The pass Statement
+  - `if` statements cannot be empty, but if you for some reason have an `if` statement with no content, put in the `pass` statement to avoid getting an error.
+
 
 
 
