@@ -1,2 +1,4 @@
-coordinates = (4, 5)
-print(coordinates[0])
+def say_hi(name):
+    print("hello " + name);
+
+say_hi("Mike")

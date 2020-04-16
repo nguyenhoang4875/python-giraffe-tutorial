@@ -185,6 +185,55 @@
   |count() |Returns the number of times a specified value occurs in a tuple|
   |index() | Searches the tuple for a specified value and returns the position of where it was found|
 
+<h2>Functions</h2>
+
+- Creating a Function: In Python a function is defined using the `def` keyword
+  - ` def my_function(): print("Hello from a function")`
+
+- Calling a Function: To call a function, use the function name followed by parenthesis
+  - `my_function()`
+
+- Arguments
+  - Information can be passed into functions as arguments.
+
+- Parameters or Arguments?
+  - The terms parameter and argument can be used for the same thing: information that are passed into a function.
+  - From a function's perspective:
+    - A parameter is the variable listed inside the parentheses in the function definition.
+    - An argument is the value that is sent to the function when it is called.
+
+- Number of Arguments
+- Arbitrary Arguments, *args
+  - If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
+  - This way the function will receive a tuple of arguments, and can access the items accordingly:
+  - If the number of arguments is unknown, add a * before the parameter name: 
+    - `def my_function(*kids): print("The youngest child is " + kids[2])`
+
+- Keyword Arguments
+  - You can also send arguments with the key = value syntax.
+  - This way the order of the arguments does not matter.
+
+- Arbitrary Keyword Arguments, **kwargs
+  - If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.
+  - This way the function will receive a dictionary of arguments, and can access the items accordingly
+
+- Default Parameter Value
+  - If we call the function without argument, it uses the default value:
+    - `def my_function(country = "Norway"): print("I am from " + country)`
+
+- Passing a List as an Argument
+  - You can send any data types of argument to a function (string, number, list, dictionary etc.), and it will be treated as the same data type inside the function.
+
+- Return Values
+  - To let a function return a value, use the return statement:
+
+- The pass Statement
+  - function definitions cannot be empty, but if you for some reason have a function definition with no content, put in the pass statement to avoid getting an error.
+    - `def my_function(): pass`
+
+- Recursion
+  - Python also accepts function recursion, which means a defined function can call itself.
+  - Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that you can loop through data to reach a result.
 
 
 
