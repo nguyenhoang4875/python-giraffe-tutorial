@@ -1,11 +1,14 @@
-is_male = True
-is_tall = False
+num1 = float(input("Enter first number: "))
+operator = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
 
-if is_male and is_tall:
-    print("You are a tall male")
-elif is_male and not(is_tall):
-    print("You are a short male")
-elif not(is_male) and is_tall:
-    print("You are a short and are not male")
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    print(num1 / num2)
 else:
-    print("you are not a male and not tall")
+    print("Invalid operator")
