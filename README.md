@@ -336,3 +336,5 @@
   - With the `continue` statement we can stop the current iteration, and continue with the next
 - The else Statement
   - With the `else` statement we can run a block of code once when the condition no longer is true
+
+<h2>Building a Guessing Game</h2>
