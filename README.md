@@ -363,3 +363,6 @@
   - The "inner loop" will be executed one time for each iteration of the "outer loop": `for x in adj: for y in fruits: print(x, y)`
 - The pass Statement
   - `for` loops cannot be empty, but if you for some reason have a `for` loop with no content, put in the `pass` statement to avoid getting an error.
+
+  <h2>Exponent Function</h2>
+  
