@@ -153,3 +153,39 @@
   |remove() | Removes the item with the specified value|
   |reverse() | Reverses the order of the list|
   |sort() | Sorts the list|
+
+<h2>Tuples</h2>
+
+- Tuple
+  - A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+  - Create a Tuple: `this_tuple = ("apple", "banana", "cherry")`
+- Access Tuple Items
+  - You can access tuple items by referring to the index number, inside square brackets:
+  - Print the second item in the tuple: `print(this_tuple[1])`
+  - Negative Indexing
+  - Range of Indexes
+  - Range of Negative Indexes
+
+- Change Tuple Values
+  - Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+  - But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+
+- Loop Through a Tuple
+- Check if Item Exists
+- Tuple Length
+- Add Items
+- Join Two Tuples
+  - To join two or more tuples you can use the + operator: `tuple3 = tuple1 + tuple2`
+- The tuple() Constructor: It is also possible to use the `tuple()` constructor to make a tuple.
+   - `this_tuple = tuple(("apple", "banana", "cherry"))`
+
+- Tuple Methods
+|Method | Description|
+  |----------|-------------|
+  |count() |Returns the number of times a specified value occurs in a tuple|
+  |index() | Searches the tuple for a specified value and returns the position of where it was found|
+
+
+
+
+
