@@ -369,6 +369,15 @@
   <h2>2D Lists & Nested Loops</h2>
 
   <h2>Build a Translator</h2>
+
+  <h2>Comments</h2>
+
+  - Creating a Comment
+    - Comments starts with a `#`, and Python will ignore them
+  - Multi Line Comments
+    - Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it.
+      - `""" comment multi line in python """`
+
   
 
 
