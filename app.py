@@ -1,12 +1,10 @@
-# This prints out a string
-print("Comments are fun")
-'''
-Comment multiple line
-just for fun
-'''
-#OR
-"""
+try:
+    value = 10/0
+    number = int(input("Enter a number: "))
+    print(number)
 
-Comment multiple line
-just for fun
-"""
+except ZeroDivisionError as err:
+    print(err)
+
+except:
+    print("Invalid Input")

@@ -377,6 +377,20 @@
   - Multi Line Comments
     - Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it.
       - `""" comment multi line in python """`
+      - `''' comment multi line in python '''`
+
+<h2>Try Except</h2>
+
+- The `try` block lets you test a block of code for errors.
+- The `except` block lets you handle the error.
+- The `finally` block lets you execute code, regardless of the result of the try- and except blocks.
+- Exception Handling
+  - When an error occurs, or exception as we call it, Python will normally stop and generate an error message.
+  - These exceptions can be handled using the `try` statement
+  - Since the try block raises an error, the except block will be executed.
+  - Without the try block, the program will crash and raise an error
+- Many Exceptions
+
 
   
 
